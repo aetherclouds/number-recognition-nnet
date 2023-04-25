@@ -6,12 +6,17 @@ It will take a 28x28 (784 pixels) array input with values ranging 0-1.
 
 It uses backpropagation to correct for its error over the output nodes, which identify numbers ranging 0-9.
 ## Setting up
-Requires Python and `jupyter-labs`.
+Requires Python and ` jupyterlab`. If you don't have it:
+```sh
+pip install jupyterlab
+```
 ### Virtual environment
 ```sh
 py -m venv venv
 ./venv/Scripts/activate
+# install requirements
 pip install -r requirements.txt
+# create kernel with current environment
 python -m ipykernel install --user --name nrnn-venv --display-name="Number recognition NN"
 ```
 ### Starting
