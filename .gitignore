@@ -1,5 +1,5 @@
-**/.ipynb_checkpoints
+.ipynb_checkpoints
 venv
 
-# until I figure where to upload these
+# 2 big 2 upload
 data/mnist_train.csv
